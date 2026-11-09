@@ -1,0 +1,33 @@
+{
+  "siteUrl": "https://healthysmilecare.github.io/",
+  "siteLabel": "healthysmilecare.github.io",
+  "doctor": {
+    "name": "Stiffany Faith Sitoy",
+    "designation": "DMD",
+    "role": "Doctor of Dental Medicine · Clinic Director"
+  },
+  "clinic": {
+    "name": "Healthy Smile Care Dental Clinic",
+    "shortName": "Healthy Smile Care",
+    "shortNameLines": ["Healthy Smile", "Care"],
+    "subtitle": "Dental Clinic",
+    "address": "Kuala Lumpur",
+    "established": "Est. 2016",
+    "tagline": "Gentle, modern dentistry",
+    "taglineAccent": "for every smile."
+  },
+  "contact": {
+    "phone": "0912 345 6789",
+    "email": "dentalclinic@uv.com"
+  },
+  "colors": {
+    "brownDark": "#3b2518",
+    "brown": "#5a3a26",
+    "brownMid": "#7a4f30",
+    "brownLight": "#a06c45",
+    "pink": "#f3abbd",
+    "pinkDeep": "#d96f8c",
+    "pinkPale": "#fde7ec",
+    "cream": "#fffaf7"
+  }
+}
