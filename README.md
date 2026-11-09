@@ -86,6 +86,18 @@ only. Everything else reads from it.
 - "Taken" slots are generated deterministically from the date for realism.
 - Trust figures, founding date, bio and prices are placeholders.
 
+## Calling card
+
+`npm run card` renders the printable calling card (PDF + 600 DPI PNG/JPG, front and back) from
+`tools/calling-card/card.json`, and `npm run card:bleed` adds 0.125 in bleed for commercial print.
+Output lands in `tools/calling-card/out/`, which is git-ignored. The script decodes the QR code it
+rendered and fails if it does not point at `siteUrl`.
+
+## Reusing this project for another clinic
+
+See `docs/NEW-CLINIC-PLAYBOOK.md` for the step-by-step process (GitHub organization, repository,
+Pages, customisation points, verification) and `CLAUDE.md` for the project guide.
+
 ## Next steps
 
 1. Add a backend (or a hosted form/booking service) and move the persistence
